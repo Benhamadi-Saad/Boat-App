@@ -1,7 +1,7 @@
 # Boat-App Sample Application 
 
 ## Context
-In this Spring boot application , I try to develop following architecture Hexagonal ( Sure this a simple exemple )
+In this Spring boot application , I try to develop following architecture Hexagonal 
 
 ## Domain
 
