@@ -35,7 +35,12 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .and()
                 .csrf().disable()
                 .authorizeRequests()
-                .antMatchers("/api/**").hasRole(USER_Role);
-        ;
+                .antMatchers("/api/**").hasRole(USER_Role)
+                .and()
+                .formLogin()
+                .loginProcessingUrl("/login")
+                .defaultSuccessUrl("/")
+                .and()
+                .logout().logoutUrl("/logout");
     }
 }
