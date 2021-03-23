@@ -18,7 +18,7 @@ To do so, there are multiple sub-modules (like repository) under infrastructure.
 
 ### API 
 
-It describes all the ports for everything that needs **to query the domain**. 
+It describes all the ports for everything that needs to query the domain. 
 
 These interfaces are implemented by the domain.
 
